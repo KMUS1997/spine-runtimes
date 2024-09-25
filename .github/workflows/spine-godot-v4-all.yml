@@ -1,5 +1,8 @@
 name: Build spine-godot (All Godot 4.x versions)
 
+env:
+  SCRIPT_AES256_ENCRYPTION_KEY: "dcd1159ca7df5fae042b8f996c4f8436d1afaac5a706d9067f70db69ac697da3"
+
 on:
   push:
     paths:
